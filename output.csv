@@ -1,0 +1,5 @@
+,Design,max_clk_frequency(GHz),critical_path_delay(ps),slack(ps),start_point,end_point,total_area(um^2),total_power(w),memory_power(w),register_power(w),latch_power(w),logic_power(w),bbox_power(w),clock_power(w),pad_power(w),pm_power(w)
+0,FIFO,2.67,375.0,0.0,count_reg[1]/CK,FIFO_reg[2][5]/S,767.16,0.000826154,0.0,0.000648696,0.0,0.000100658,0.0,7.68e-05,0.0,0.0
+1,Processor,2.0,500.0,0.0,S1_aluin1_reg[5]/CK,S2_A1_aluout_reg[23]/D,5514.48,0.00148777,0.0,0.00124637,0.0,4.75759e-05,0.0,0.000193824,0.0,0.0
+2,Convolution,1.0,1000.0,0.0,m2/i_4_reg[1]/CK,m2/Convo_3_reg[9]/D,94303.44,0.0296923,0.0,0.0251067,0.0,0.00458565,0.0,0.0,0.0,0.0
+3,Counter,3.21,312.0,0.0,count_reg[1]/CK,count_reg[7]/D,114.84,0.00034524,0.0,0.000269099,0.0,4.29632e-05,0.0,3.31776e-05,0.0,0.0
